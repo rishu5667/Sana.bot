@@ -20,8 +20,8 @@ def run_web_server():
     app.run(host='0.0.0.0', port=8080)
 
 # --- CONFIGURATION ---
-USERNAME = os.getenv("INSTA_USER")
-PASSWORD = os.getenv("INSTA_PASS")
+USERNAME = os.getenv("sana.b0t")
+PASSWORD = os.getenv("Rishu9931")
 RISHU = "rx"  # <--- Ye line add kar do (agar nahi hai toh)
 BOT_NAME = "sana"
 
