@@ -151,7 +151,7 @@ def handle_auto_features(cl, thread_id):
 def bot_loop():
     cl = Client()
     try:
-        cl.login(USERNAME, PASSWORD)
+        cl.login(sana.b0t, Rishu9931)
         print("Sana is Online! 🟢")
     except Exception as e:
         print(f"Login Error: {e}"); return 
